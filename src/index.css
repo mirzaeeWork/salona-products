@@ -1,0 +1,30 @@
+@import "tailwindcss";
+
+@theme {
+  --color-mocha: #A47864;
+  --color-cream: #F7E8D3;
+  --color-mustard: #FFC93C;
+  --color-clay: #C99383;
+  --color-wood: #B17A50;
+  --color-midnight: #112D4E;
+  --color-trueblue: #137DC5;
+  --color-accent: #BF1922;
+
+}
+
+:root { color-scheme: light; }
+body { @apply bg-cream text-midnight min-h-screen; }
+
+/* helpers */
+.text-muted { @apply text-gray-500; }
+.card-shadow { @apply shadow-sm; }       
+.card-shadow-hover { @apply hover:shadow-md transition-shadow; } 
+
+.select-options {
+  @apply text-midnight/80 py-2 px-3 w-full cursor-pointer border-none;
+}
+.select-options:hover {
+  @apply bg-midnight/80 text-white;
+}
+
+
