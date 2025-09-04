@@ -16,8 +16,5 @@ Focus areas: data fetching with caching, resilient error states, skeleton loadin
 # 1) Install dependencies
 npm ci
 
-# 2) Configure environment variables (optional; see Env section)
-cp .env.example .env
-
-# 3) Start the dev server
+# 2) Start the dev server
 npm run dev
